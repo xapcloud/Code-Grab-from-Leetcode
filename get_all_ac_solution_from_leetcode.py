@@ -30,8 +30,8 @@ def login():
 
 	login_data={}
 	login_data['csrfmiddlewaretoken']=res.cookies['csrftoken']
-	login_data['login'] = "xapcloud"
-	login_data['password'] = "911223"
+	login_data['login'] = "username"
+	login_data['password'] = "password"
 	login_data['remember'] ='on'
 	res = s.post(url,headers = headers_base,data=login_data)
 	print res.status_code
