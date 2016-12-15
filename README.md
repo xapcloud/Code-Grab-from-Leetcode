@@ -1,5 +1,5 @@
 ## A simple crawler for leetcode ac solution
-  If you want to use this code, the code below should be modified. Fill your own 'username' and 'password'. 
+  If you want to use this code, the code below should be modified. Fill with your own 'username' and 'password'. 
 ```python
 def login():
 	url = "https://leetcode.com/accounts/login/"
