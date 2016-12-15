@@ -1,5 +1,5 @@
 ## A simple crawler for leetcode ac solution
-  If you want to use this code, below code should be modified. Fill your own 'username' and 'password'. 
+  If you want to use this code, the code below should be modified. Fill your own 'username' and 'password'. 
 ```python
 def login():
 	url = "https://leetcode.com/accounts/login/"
@@ -17,9 +17,10 @@ def login():
 	return res.cookies
 ```
 
-Below are my own ac solutions with its subjects, total 212.
+Follows are my own ac solutions with its subjects, total 212.
 
 [1 Two Sum](leetcode_with_solution/1_two-sum.md)
+
 [2 Add Two Numbers](leetcode_with_solution/2_add-two-numbers.md)
 [3 Longest Substring Without Repeating Characters](leetcode_with_solution/3_longest-substring-without-repeating-characters.md)
 [4 Median of Two Sorted Arrays](leetcode_with_solution/4_median-of-two-sorted-arrays.md)
